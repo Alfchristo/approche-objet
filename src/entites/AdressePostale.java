@@ -1,8 +1,15 @@
 package entites;
 
 public class AdressePostale {
-    int numRue;
-    String libelleRue;
+    public int numRue;
+    public String libelleRue;
     public int codePostal;
-    String ville;
+    public String ville;  // TP 1
+
+    public AdressePostale(int nvRue, String nvLibRue, int nvCPostal, String nvVille){
+        numRue = nvRue;
+        libelleRue = nvLibRue;
+        codePostal = nvCPostal;
+        ville = nvVille;
+    }
 }
