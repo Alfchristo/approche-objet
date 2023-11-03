@@ -27,6 +27,6 @@ public class TestPersonne {
             pers1.afficherIdentite(); // TP 3
             pers2.afficherIdentite();
             pers2.changerAdresse(new AdressePostale(321, "Nouvelle Test", 54321, "Test-Aix"));
-            pers2.retourAdresse();
+            pers2.toString();
     }
 }
